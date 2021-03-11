@@ -1,0 +1,8 @@
+import math
+
+# Exercise 2.2.1
+
+r = 5
+v = 4/3 * math.pi * r **3
+
+print("The volume of a sphere with the radius 5 is: ", v)
