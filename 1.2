@@ -1,0 +1,18 @@
+# Convert kilometers to miles
+miles = 10 / 1.61    # 1 mile = 1,60934
+
+# convert time to seconds
+seconds = (42 * 60) + 42
+
+# time per mile (in seconds)
+seconds_per_mile = seconds / miles
+
+print("Time per mile: ", seconds_per_mile, " seconds")
+
+# time per mile (in minutes)
+minutes_per_mile = seconds_per_mile / 60
+print("Time per mile: ", minutes_per_mile, "minutes")
+
+# miles per hour
+miles_per_hour = 60 / minutes_per_mile
+print("Miles per hour: ", miles_per_hour, "miles/h")
