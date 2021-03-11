@@ -1,0 +1,8 @@
+# Fahrenheit to Centigrade Calculator
+
+f = 212
+def fahrenheit_calc(f):
+    c = (f - 32) / 9 * 5
+    return c
+
+fahrenheit_calc(212)
