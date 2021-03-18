@@ -1,0 +1,19 @@
+# Exercise 5.3.1 and 5.3.2
+
+def is_triangle(a, b, c):
+    if a > (b+c) or b > (a+c) or c > (a+b):
+        print("No")
+    else:
+        print("Yes")
+
+is_triangle(2,4,5)   #Yes
+is_triangle(5,3,1)   #No
+
+
+def sticks():
+    a = int(input("Please enter the length of the first stick: "))
+    b = int(input("Please enter the length of the second stick: "))
+    c = int(input("Please enter the length of the third stick: "))
+    is_triangle(a, b, c)
+
+sticks()
