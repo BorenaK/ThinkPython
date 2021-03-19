@@ -1,0 +1,9 @@
+#loop echo
+
+while True:
+    line = input('> ')
+    if line == 'done':
+        break
+    print(line, line)
+
+print('Done')
